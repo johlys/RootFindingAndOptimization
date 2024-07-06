@@ -40,15 +40,16 @@ where $\alpha$ is the learning rate.
 ### Setting Up the Project
 
 1. Clone the repository and navigate to the project directory.
-2. Build the project using the provided Makefile:
+2. Change the main.cpp file to use the desired method.
+3. Build the project using the provided Makefile:
 ```bash
 make
 ```
-3. Run the executable:
+4. Run the executable:
 ```bash
 ./main
 ```
-4. To clean the project, run:
+5. To clean the project, run:
 ```bash
 make clean
 ```
