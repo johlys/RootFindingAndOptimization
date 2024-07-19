@@ -10,6 +10,7 @@ This project implements various root finding and optimization methods in C++. Th
 
 ### 1. Secant Method
 The Secant Method is an iterative numerical method for finding the root of a function. It uses two initial approximations and iteratively refines them using the formula:
+
 $$x_{n+1} = x_n - f(x_n) \frac{x_n - x_{n-1}}{f(x_n) - f(x_{n-1})}$$
 
 ### 2. Bisection Method
